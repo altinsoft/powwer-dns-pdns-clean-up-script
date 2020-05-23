@@ -1,6 +1,7 @@
 # powwer-dns-pdns-clean-up-script
 PowerDNS (PDNS) Clean-up script (For slave servers)
 
+<pre><code>
 #!/bin/bash
 # Dependencies:
 # bind-utils
@@ -31,3 +32,4 @@ for d in "${NAMES[@]}"; do
 check ${m} ${d}
 done
 done
+</pre></code>
